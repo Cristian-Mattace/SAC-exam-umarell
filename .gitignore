@@ -1,0 +1,6 @@
+env/
+credentials.json
+setenv.sh
+__pychache__/
+README.txt
+.DS_Store

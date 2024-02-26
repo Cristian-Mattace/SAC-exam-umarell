@@ -1,0 +1,38 @@
+<html>
+    <link rel="stylesheet" href="/static/style.css">
+    <body>
+
+        <form method="POST">
+            <table>
+                <tr><td>{{form.cap.label}}</td><td>{{form.cap}}</td></tr>
+                <tr><td>{{form.umarell.label}}</td><td>{{form.umarell}}</td></tr>
+                <tr><td>{{form.cantiere.label}}</td><td>{{form.cantiere}}</td></tr>
+                <tr><td></td><td>{{form.Submit}}</td></tr>
+            </table>
+        </form>
+
+        <br><br><br>
+
+        <div>
+            {% if (umarells != "") %}
+                Umarell:
+                <ul>
+                {% for i in umarells %}
+                    <li>{{ i }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+
+        <div>
+            {% if (cantieri != "") %}
+                Cantieri:
+                <ul>
+                {% for i in cantieri %}
+                    <li>{{ i }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </body>
+</html>

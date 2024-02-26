@@ -1,0 +1,9 @@
+.gcloudignore
+.git
+.gitignore
+__pycache__/
+env/
+credentials.json
+240222.pdf
+setenv.sh
+tester_yaml.py

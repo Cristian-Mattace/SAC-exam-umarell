@@ -1,0 +1,13 @@
+.error{
+    color: red;
+}
+
+td, tr{
+    padding: 5px;
+    text-align: center;
+}
+
+tr.red {
+    border: 1px solid red;
+    color: red;
+}
